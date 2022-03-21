@@ -8,7 +8,7 @@ async function addTokens() {
     fetch('https://api.blooket.com/api/users/add-rewards', {
         method: "PUT",
         headers: {
-            "referer": "https://www.blooket.com/",
+            "referer": "https://dashboard.blooket.com/",
             "content-type": "application/json",
             "authorization": localStorage.token
         },
